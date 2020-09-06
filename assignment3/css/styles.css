@@ -1,0 +1,135 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #59253A;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header-nav{
+	background-color: #0677A1;
+	border-radius: 0;
+	border: 0;
+}
+
+#navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	color:#fff;
+	font-size:1.5em;
+	font-weight: bold;
+	align-self: right;
+	text-shadow: 1px 1px 1px #2D4159;
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #2D4159;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.2px solid #59253A;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*header end*/
+
+/*main content*/
+.container .heading{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #A9A9A9;
+	line-height: .75;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#chicken, #beef, #shushi {
+  height: 1000px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #2D4159;
+  overflow: hidden;
+  background-color: #0677A1;
+}
+
+#chicken span, #beef span, #shushi span{
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #2D4159;
+  margin-bottom: 20px;
+}
+
+#chicken div, #beef div, #shushi div{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+}
+
+#chicken a, #beef a, #shushi a{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+}
+#chicken footer, #beef footer, #shushi footer{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+}
+
+/*large devices only*/
+@media (min-width: 1200px){
+
+}
+
+/*medium devices only*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*small devices only*/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*extra small devices only*/
+@media (max-width: 767){
+
+}
